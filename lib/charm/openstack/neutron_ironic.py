@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 from charmhelpers.core.hookenv import (
     config,
     log

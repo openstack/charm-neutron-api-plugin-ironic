@@ -1,5 +1,5 @@
 import charms.reactive as reactive
-import charm.openstack.neutron_ironic as ironic  # noqa
+import charm.openstack.neutron_ironic as ironic
 
 import json
 
