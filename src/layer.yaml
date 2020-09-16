@@ -2,6 +2,7 @@ includes:
 - 'layer:openstack'
 - 'interface:neutron-plugin-api-subordinate'
 - 'interface:keystone-credentials'
+repo: https://github.com/gabriel-samfira/charm-neutron-api-plugin-ironic
 options:
   basic:
     use_venv: False
