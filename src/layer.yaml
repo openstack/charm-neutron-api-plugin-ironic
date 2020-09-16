@@ -1,0 +1,7 @@
+includes:
+- 'layer:openstack'
+- 'interface:neutron-plugin-api-subordinate'
+- 'interface:keystone-credentials'
+options:
+  basic:
+    use_venv: False
