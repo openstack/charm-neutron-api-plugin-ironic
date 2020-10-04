@@ -36,12 +36,6 @@ class TestHandlers(test_utils.PatchHelper):
             'mechanism_drivers': 'driver1,driver2'
         }
 
-        mocked_config = mock.MagicMock()
-        self.patch_object(handlers, 'config',
-                          name='config',
-                          new=mocked_config)
-        mocked_config.return_value = 'my_config_value'
-
         handlers.configure_principal()
         principal_charm.configure_plugin.assert_called_once_with(
             neutron_plugin='ironic',

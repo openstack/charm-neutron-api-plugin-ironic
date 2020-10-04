@@ -10,6 +10,7 @@ subordinate: true
 series:
   - bionic
   - focal
+  - groovy
 provides:
   neutron-plugin-api-subordinate:
     interface: neutron-plugin-api-subordinate
