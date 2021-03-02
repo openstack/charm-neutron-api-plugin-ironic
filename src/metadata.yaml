@@ -4,13 +4,14 @@ maintainer: Gabriel-Adrian Samfira <gsamfira@cloudbasesolutions.com>
 description: |
   Ironic baremetal mechanism driver and ironic neutron agent support
 tags:
-  - misc
-  - networking
+- misc
+- networking
 subordinate: true
 series:
-  - bionic
-  - focal
-  - groovy
+- bionic
+- focal
+- groovy
+- hirsute
 provides:
   neutron-plugin-api-subordinate:
     interface: neutron-plugin-api-subordinate
