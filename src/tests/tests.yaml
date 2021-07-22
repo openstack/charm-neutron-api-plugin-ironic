@@ -18,6 +18,10 @@ target_deploy_status:
   ironic-conductor:
     workload-status: blocked
     workload-status-message: invalid enabled-deploy-interfaces config
+  neutron-openvswitch:
+    # NOTE(lourot): we deploy a bundle in which this subordinate charm has no
+    # principle.
+    num-expected-units: 0
 configure:
 - zaza.openstack.charm_tests.vault.setup.auto_initialize
 - zaza.openstack.charm_tests.ironic.setup.set_temp_url_secret
