@@ -8,10 +8,7 @@ tags:
 - networking
 subordinate: true
 series:
-- bionic
 - focal
-- groovy
-- hirsute
 - impish
 provides:
   neutron-plugin-api-subordinate:
