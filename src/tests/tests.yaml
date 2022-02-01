@@ -17,10 +17,10 @@ smoke_bundles:
 target_deploy_status:
   vault:
     workload-status: blocked
-    workload-status-message: Vault needs to be initialized
+    workload-status-message-prefix: Vault needs to be initialized
   ironic-conductor:
     workload-status: blocked
-    workload-status-message: invalid enabled-deploy-interfaces config
+    workload-status-message-prefix: invalid enabled-deploy-interfaces config
   neutron-openvswitch:
     # NOTE(lourot): we deploy a bundle in which this subordinate charm has no
     # principle.
