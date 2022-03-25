@@ -9,7 +9,7 @@ tags:
 subordinate: true
 series:
 - focal
-- impish
+- jammy
 provides:
   neutron-plugin-api-subordinate:
     interface: neutron-plugin-api-subordinate
