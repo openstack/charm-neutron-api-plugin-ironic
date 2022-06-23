@@ -9,10 +9,6 @@ tags:
 subordinate: true
 series:
 - bionic
-- focal
-- groovy
-- hirsute
-- impish
 provides:
   neutron-plugin-api-subordinate:
     interface: neutron-plugin-api-subordinate
