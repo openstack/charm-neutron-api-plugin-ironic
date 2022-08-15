@@ -5,4 +5,4 @@ includes:
 repo: https://opendev.org/openstack/charm-neutron-api-plugin-ironic.git
 options:
   basic:
-    use_venv: False
+    use_venv: True
