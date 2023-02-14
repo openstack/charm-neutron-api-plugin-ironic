@@ -1,5 +1,5 @@
 options:
-  source: &source distro
+  source: &source cloud:jammy-antelope
 series: jammy
 local_overlay_enabled: false
 relations:
