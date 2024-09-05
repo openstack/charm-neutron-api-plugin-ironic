@@ -6,8 +6,6 @@ description: |
 tags:
   - misc
   - networking
-series:
-  - jammy
 subordinate: true
 provides:
   neutron-plugin-api-subordinate:
