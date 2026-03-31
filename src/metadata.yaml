@@ -4,10 +4,11 @@ maintainer: Gabriel-Adrian Samfira <gsamfira@cloudbasesolutions.com>
 description: |
   Ironic baremetal mechanism driver and ironic neutron agent support
 tags:
-  - misc
-  - networking
+- misc
+- networking
 series:
-  - jammy
+- jammy
+- noble
 subordinate: true
 provides:
   neutron-plugin-api-subordinate:
